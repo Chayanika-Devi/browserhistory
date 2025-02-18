@@ -1,107 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>A history of browsers</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A history of browsers</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>A history of browsers</h1>
-  
-  <!-- Table of Contents -->
-  <section id="table-of-contents">
-    <h2>Table of Contents</h2>
-    <ul>
-      <li><a href="#introduction">Introduction</a></li>
-      <li><a href="#internet-explorer">Internet Explorer</a></li>
-      <li><a href="#firefox">Firefox</a></li>
-      <li><a href="#chrome">Chrome</a></li>
-    </ul>
-  </section>
-  
-  <!-- Introduction -->
-  <section id="introduction">
-    <h2>Introduction</h2>
-    <p>
-      Web browsers have been a cornerstone in how people access the internet for decades. 
-      From their earliest days to the modern multi-tabbed, extension-enabled experiences, 
-      browsers have continually evolved alongside web standards. They shape how we view, 
-      create, and interact with online content.
-    </p>
-    <p>
-      Over time, browsers have become more secure, more standards-compliant, 
-      and have expanded to include tools for developers, advanced privacy options, 
-      and integrations with cloud services. It’s hard to imagine modern life 
-      without these powerful applications.
-    </p>
-    <p>
-      If you'd like to learn more about early web technologies, 
-      feel free to visit <a href="https://www.w3.org" target="_blank">the W3C website</a>.
-    </p>
-  </section>
-  
-  <!-- Internet Explorer -->
-  <section id="internet-explorer">
-    <h2>A brief history of IE</h2>
-    <img src="IE.jpg" width="100" alt="IE Logo" />
-    <p>
-      Internet Explorer (IE) was introduced by Microsoft in 1995, quickly becoming one 
-      of the most widely used browsers due to its bundling with Windows. Over the years, 
-      IE received numerous updates, though it sometimes lagged in adopting new web standards. 
-      Despite declining usage in later years, its early dominance played a key role in 
-      popularizing the web.
-    </p>
-    <p>
-      After many versions, Microsoft officially ended support for older IE versions and 
-      transitioned users to Microsoft Edge. While IE’s market share has dramatically 
-      decreased, it remains a significant part of browser history.
-    </p>
-    <p>
-      To explore more about Microsoft’s current browser developments, 
-      visit <a href="https://www.microsoft.com/edge" target="_blank">the Microsoft Edge page</a>.
-    </p>
-  </section>
-  
-  <!-- Firefox -->
-  <section id="firefox">
-    <h2>A brief history of Firefox</h2>
-    <img src="F.jpg" width="100" alt="IE Logo" />
-    <p>
-      Firefox, developed by the Mozilla Foundation, was first released in 2002 under the name 
-      “Phoenix.” It quickly became popular thanks to its open-source nature, focus on privacy, 
-      and commitment to web standards. Over time, Firefox introduced pioneering features 
-      such as tabbed browsing and robust add-ons, influencing the broader browser market.
-    </p>
-    <p>
-      Despite facing stiff competition from other browsers, Firefox continues to have 
-      a dedicated user base. Mozilla’s emphasis on an open and accessible internet 
-      remains at the core of Firefox’s identity.
-    </p>
-    <p>
-      You can learn more about Mozilla’s mission at 
-      <a href="https://www.mozilla.org/en-US/mission/" target="_blank">Mozilla’s official website</a>.
-    </p>
-  </section>
-  
-  <!-- Chrome -->
-  <section id="chrome">
-    <h2>A brief history of Chrome</h2>
-    <img src="c.jpg" width="100" alt="IE Logo" />
-    <p>
-      Google Chrome was launched in 2008 and rapidly gained market share, 
-      becoming one of the most widely used browsers in the world. Its speed, 
-      minimalist design, and integration with Google services appealed to users, 
-      and the frequent updates kept Chrome on the cutting edge of web technology.
-    </p>
-    <p>
-      Over time, Chrome extended its platform to include powerful developer tools, 
-      a vast library of extensions, and cross-device synchronization. Its dominance 
-      has influenced modern web standards and shaped the competitive landscape 
-      of browser development.
-    </p>
-    <p>
-      For more information about Google’s browser innovations, 
-      visit <a href="https://www.google.com/chrome/" target="_blank">the official Chrome page</a>.
-    </p>
-  </section>
+
+    <!-- Title -->
+    <h1>A history of browsers</h1>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#introduction">Introduction</a>
+        <a href="#internet-explorer">Internet Explorer</a>
+        <a href="#chrome">Chrome</a>
+        <a href="#firefox">Firefox</a>
+    </nav>
+
+    <!-- Introduction Section -->
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>
+            The first web browser was invented in 1990 by 
+            <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee" target="_blank">Tim Berners-Lee</a>. 
+            It was called WorldWideWeb (no spaces) and was later renamed Nexus. In 1993, 
+            Marc Andreessen created a browser that was easy to use and install with the release of Mosaic 
+            (later Netscape), "the world's first popular browser".
+        </p>
+        <p>
+            The browser wars put the Web in the hands of millions of ordinary PC users, 
+            but commercialization of the Web could stymie standards efforts. 
+            Both Microsoft and Netscape liberally incorporated proprietary extensions to HTML 
+            to gain an edge by product differentiation, leading to W3C’s adoption of CSS.
+        </p>
+    </section>
+
+    <!-- Three Columns Layout for Browser History -->
+    <div class="browser-container">
+
+        <!-- Internet Explorer -->
+        <section id="internet-explorer" class="browser-box">
+            <h2>A brief history of IE</h2>
+            <img src="IE.jpg" alt="IE Logo">
+            <p>
+                The first Internet Explorer was derived from 
+                <a href="https://en.wikipedia.org/wiki/Spyglass,_Inc." target="_blank">Spyglass Mosaic</a>. 
+                The original Mosaic came from 
+                <a href="https://en.wikipedia.org/wiki/NCSA_Mosaic" target="_blank">NCSA</a>, 
+                but Microsoft adapted it for their browser.
+            </p>
+        </section>
+
+        <!-- Chrome -->
+        <section id="chrome" class="browser-box">
+            <h2>A brief history of Chrome</h2>
+            <img src="c.jpg" alt="Chrome Logo">
+            <p>
+                <a href="https://en.wikipedia.org/wiki/Eric_Schmidt" target="_blank">Google's Eric Schmidt</a> 
+                opposed the development of an independent web browser for six years.
+            </p>
+        </section>
+
+        <!-- Firefox -->
+        <section id="firefox" class="browser-box">
+            <h2>A brief history of FireFox</h2>
+            <img src="F.jpg" alt="Firefox Logo">
+            <p>
+                The project that became Firefox started as an experimental branch of the 
+                <a href="https://www.mozilla.org/en-US/firefox/new/" target="_blank">Mozilla Suite</a>.
+            </p>
+        </section>
+
+    </div>
+
 </body>
 </html>
